@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+
+
+
+	<p id="demo"></p>
+
+<script>
+
+	// String
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Number
+let length = 16;
+let weight = 7.5;
+
+// BigInt
+let a = 1234567890123456789012345n;
+let b = BigInt(1234567890123456789012345);
+
+// Boolean
+let x = true;
+let y = false;
+
+// Object
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object
+const date = new Date("2022-03-25");
+
+// Undefined
+let z;
+let c;
+
+// Null
+let w = null;
+let d = null;
+
+// Symbol
+const u = Symbol();
+const i = Symbol();
+
+
+
+document.getElementById('demo').innerHTML = color  + " = "  + typeof color + "<br>" +
+lastName + " = " + typeof lastName;
+	
+</script>
+
+</body>
+</html>
