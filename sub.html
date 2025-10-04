@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Приклад з функцією clickMe()</title>
+</head>
+<body>
+
+	<center>
+	  <h3>Обчислення різниці трьох чисел</h3>
+
+	  <p id="demo">Результат зʼявиться тут</p>
+	  <button onclick="clickMe()">Натисни мене</button>
+
+  	</center>
+
+  <script>
+    // глобальні змінні
+    let length = 16;
+    let weight = 7.5;
+    let size = 16;
+    let sub;
+
+    function clickMe() {
+      // можна використати локальні або глобальні змінні
+      sub = size - weight - length;
+
+      // виводимо результат у параграф
+      document.getElementById('demo').innerHTML = sub;
+    }
+  </script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+ 
